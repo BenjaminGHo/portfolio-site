@@ -9,7 +9,10 @@ body {
     box-sizing: border-box;
 }
 
-img {
+img,
+h1,
+h2,
+h3 {
     width: 100%;
 }
 
@@ -41,16 +44,14 @@ a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-bottom: 3px solid #2d3c49;
 }
-
-/** splash image **/
 
 .splash-image {
     max-width: 1200px;
     text-align: center;
     clear: both;
     padding-top: 20px;
+	border-top: 3px solid #2d3c49;
 }
 
 .splash-image img {
@@ -67,24 +68,29 @@ a {
     flex-wrap: wrap;
 }
 
-.body-title {
+.body-header {
     color: #7d97ad;
     max-width: 1200px;
     margin: 0px auto;
     font-size: 25px;
     padding-top: 20px;
+	width: 100%;
 }
 
-article {
+.article-container {
     width: 25%;
     font-size: 12px;
     text-align: center;
 	padding: 10px 20px;
 }
 
+.article-container  article {
+	border: 2px dashed #AAA;
+}
+
 .header {
 	padding: 15px;
-	border: 1px solid #CCC;
+
 }
 
 .body-container p {
@@ -105,7 +111,7 @@ footer {
 /** media queries **/
 @media screen and (max-width:767px)
 {
-    article {
+    .article-container  {
         width: 100%;
         font-size: 25px;
     }
@@ -129,7 +135,7 @@ footer {
         text-align: center;
     } 
 
-    .body-title {
+    .body-header {
         text-align: center;
     }
 	
@@ -139,7 +145,7 @@ footer {
 	
 	
 	a {
-		font-size: 25px;
+		font-size: 20px;
 	}
     
 }
@@ -147,7 +153,7 @@ footer {
 @media screen and (min-width:767px) and (max-width:1023px)
 {
     /* For iPad: */
-    article {
+    .article-container  {
         width: 33.333%;
         font-size: 25px;
     }
@@ -163,13 +169,17 @@ footer {
 	.body-container img {
 		width: 40%;
 	}
+	
+	a {
+		font-size: 14px;
+	}
 
 }
 
 @media screen and (min-width:1024px)
 {
     /* For Desktop: */
-    article {
+    .article-container {
         width: 33.33%;
         font-size: 25px;
     }
@@ -190,6 +200,10 @@ footer {
 	
 	.body-container img {
 		width: 40%;
+	}
+	
+	a {
+		font-size: 20px;
 	}
 }
 
