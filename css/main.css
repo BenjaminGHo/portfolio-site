@@ -93,7 +93,7 @@ footer {
 @media screen and (max-width:767px)
 {
     article {
-        width: 50%;
+        width: 100%;
         font-size: 25px;
     }
     
@@ -119,6 +119,10 @@ footer {
     .body-title {
         text-align: center;
     }
+	
+	.body-container img {
+		width: 30%;
+	}
     
 }
 
@@ -137,6 +141,10 @@ footer {
     .logo-image img {
         width: 45%;
     }
+	
+	.body-container img {
+		width: 40%;
+	}
 
 }
 
@@ -144,7 +152,7 @@ footer {
 {
     /* For Desktop: */
     article {
-        width: 25%;
+        width: 33.33%;
         font-size: 25px;
     }
     
@@ -161,6 +169,10 @@ footer {
     .logo-image img {
         width: 45%;
     }
+	
+	.body-container img {
+		width: 40%;
+	}
 }
 
 /*
