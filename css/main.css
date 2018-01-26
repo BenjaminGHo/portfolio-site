@@ -17,6 +17,7 @@ a {
 	color: #33A1FF;
     text-decoration: none;
 	text-transform: uppercase;
+	padding: 15px;
 }
 
 /** header **/
@@ -70,7 +71,7 @@ a {
     color: #7d97ad;
     max-width: 1200px;
     margin: 0px auto;
-    font-size: 35px;
+    font-size: 25px;
     padding-top: 20px;
 }
 
