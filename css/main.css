@@ -1,6 +1,6 @@
 body {
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
     font-family: 'Montserrat', sans-serif;
     color: #2d3c49;
 }
@@ -33,6 +33,7 @@ a {
 .my-name h3 {
     margin: 0px;
 }
+
 .my-name p {
     font-size: 20px;
     margin: 0px 0px 20px 0px;
@@ -109,8 +110,7 @@ footer {
 
 
 /** media queries **/
-@media screen and (max-width:767px)
-{
+@media screen and (max-width:767px) {
     .article-container  {
         width: 100%;
         font-size: 25px;
@@ -150,8 +150,7 @@ footer {
     
 }
 
-@media screen and (min-width:767px) and (max-width:1023px)
-{
+@media screen and (min-width:767px) and (max-width:1023px) {
     /* For iPad: */
     .article-container  {
         width: 33.333%;
@@ -176,8 +175,7 @@ footer {
 
 }
 
-@media screen and (min-width:1024px)
-{
+@media screen and (min-width:1024px) {
     /* For Desktop: */
     .article-container {
         width: 33.33%;
@@ -206,14 +204,3 @@ footer {
 		font-size: 20px;
 	}
 }
-
-/*
-.logo-image,
-.my-name,
-.header-container,
-.splash-image,
-.body-title,
-article,
-.header {
-	border: 1px solid #CCC;
-}*/
